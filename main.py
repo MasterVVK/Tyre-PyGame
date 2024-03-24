@@ -8,7 +8,7 @@ SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Домашний тир")
-icon = pygame.image.load("PICs/free-icon-shooting-range-2689911.png")
+icon = pygame.image.load("PICs/free-icon-shooting-range.png")
 pygame.display.set_icon(icon)
 
 target_img = pygame.image.load("PICs/target.png")
